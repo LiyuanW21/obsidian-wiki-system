@@ -2,6 +2,30 @@
 
 A portable agent skill and vault template for building an iterative Obsidian knowledge wiki.
 
+## Install In Plain English
+
+For most users, the easiest installation method is to ask your agent to do it.
+
+Copy this into Codex:
+
+```text
+Please install https://github.com/LiyuanW21/obsidian-wiki-system as a Codex skill. Use the repository's `skill/` subfolder as the skill folder, and install it as `obsidian-wiki-system`. After installing, verify that `SKILL.md`, `references/`, and `assets/` exist.
+```
+
+Copy this into OpenCode:
+
+```text
+Please install https://github.com/LiyuanW21/obsidian-wiki-system as an OpenCode skill. Use the repository's `skill/` subfolder as the skill folder, and install it as `obsidian-wiki-system`. Only install the skill folder; do not overwrite my existing hooks, commands, tools, or global instructions.
+```
+
+Then initialize a vault by asking:
+
+```text
+Use $obsidian-wiki-system to initialize a new Obsidian knowledge wiki vault at <target folder>, using <vault name> as the vault name. Match my preferred language automatically.
+```
+
+See [`AGENT_INSTALL.md`](AGENT_INSTALL.md) for beginner-friendly copy-paste prompts in English and Chinese.
+
 ## Description
 
 Obsidian Wiki System helps AI agents scaffold and maintain a personal knowledge base that evolves from raw captures into linked wiki notes, reusable concepts, open questions, project notes, and periodic syntheses. It includes bilingual Obsidian vault templates, agent skill instructions, and install/init scripts for Codex, OpenCode, and other skill-aware agents.
