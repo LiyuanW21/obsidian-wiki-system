@@ -2,6 +2,14 @@
 
 A portable agent skill and vault template for building an iterative Obsidian knowledge wiki.
 
+## Description
+
+Obsidian Wiki System helps AI agents scaffold and maintain a personal knowledge base that evolves from raw captures into linked wiki notes, reusable concepts, open questions, project notes, and periodic syntheses. It includes bilingual Obsidian vault templates, agent skill instructions, and install/init scripts for Codex, OpenCode, and other skill-aware agents.
+
+## Acknowledgements / Inspiration
+
+The core idea is inspired by Andrej Karpathy's [`llm-wiki`](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) gist, which describes using LLMs to help maintain a personal wiki-style knowledge base. This project packages that spirit into a reusable Obsidian vault template and portable agent skill.
+
 It packages the workflow created in this vault into a reusable system:
 
 ```text
