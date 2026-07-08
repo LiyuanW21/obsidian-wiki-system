@@ -47,7 +47,7 @@ Valid `status`: `seed`, `growing`, `stable`, `archive`.
 ## Replication Checklist
 
 1. Choose language using `references/language.md`.
-2. Copy `assets/vault-template/` for Chinese or `assets/vault-template-en/` for English into an empty or existing Obsidian folder.
+2. Copy `assets/vault-template-zh/` for Chinese or `assets/vault-template-en/` for English into an empty or existing Obsidian folder.
 3. Replace placeholders `{{date}}` and `{{vault_name}}`.
 4. Preserve existing `.obsidian/` settings unless the user wants the template settings.
 5. Open the localized entry page: `首页.md` for Chinese or `Home.md` for English.

@@ -55,7 +55,7 @@ raw/inbox -> wiki/sources -> wiki/concepts/questions/projects/syntheses -> wiki/
 ## 包含内容
 
 - `skill/`：可被 Codex、OpenCode，以及任何能读取 skill-like instructions、references、assets 的 agent 使用的 skill 文件夹。
-- `skill/assets/vault-template/`：中文 Obsidian vault 模板。
+- `skill/assets/vault-template-zh/`：中文 Obsidian vault 模板。
 - `skill/assets/vault-template-en/`：英文 Obsidian vault 模板。
 - `skill/references/structure.md`：目录结构和复刻清单。
 - `skill/references/language.md`：语言自适应规则。

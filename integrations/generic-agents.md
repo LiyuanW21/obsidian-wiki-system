@@ -28,12 +28,12 @@ If the agent supports custom instructions but not skill folders, provide these f
 
 - `skill/SKILL.md`
 - `skill/references/structure.md`
-- `skill/assets/vault-template/`
+- `skill/assets/vault-template-zh/` or `skill/assets/vault-template-en/`
 
 Prompt:
 
 ```text
-Follow SKILL.md. Use references/structure.md as the directory specification. Copy assets/vault-template into the target vault, replace {{date}} and {{vault_name}}, and preserve existing user notes.
+Follow SKILL.md. Use references/structure.md as the directory specification. Copy assets/vault-template-zh for Chinese users or assets/vault-template-en for English users into the target vault, replace {{date}} and {{vault_name}}, and preserve existing user notes.
 ```
 
 ## Level 3: No Agent Skill Support

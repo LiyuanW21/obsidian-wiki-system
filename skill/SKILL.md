@@ -15,7 +15,7 @@ This folder is agent-portable: use the same `SKILL.md`, `references/`, and `asse
 2. Read `references/language.md` and choose the vault language from the user's request, existing notes, or locale.
 3. Read `references/structure.md` for the directory model and required files.
 4. Copy the selected template into the target vault:
-   - Chinese: `assets/vault-template/`.
+   - Chinese: `assets/vault-template-zh/`.
    - English: `assets/vault-template-en/`.
    - Other languages: copy the closest template and localize user-facing prose.
 5. Replace placeholders:

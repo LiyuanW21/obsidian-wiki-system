@@ -45,7 +45,7 @@ raw/inbox -> wiki/sources -> wiki/concepts/questions/projects/syntheses -> wiki/
 ## What It Includes
 
 - `skill/`: portable skill folder for Codex, OpenCode, and broadly any agent that can consume skill-like instructions, references, and assets.
-- `skill/assets/vault-template/`: Chinese starter Obsidian vault structure.
+- `skill/assets/vault-template-zh/`: Chinese starter Obsidian vault structure.
 - `skill/assets/vault-template-en/`: English starter Obsidian vault structure.
 - `skill/references/structure.md`: directory model and replication checklist.
 - `scripts/init-vault.*`: initialize a vault without relying on an agent.
@@ -139,7 +139,7 @@ If an agent only supports instruction files, provide:
 
 1. `skill/SKILL.md`
 2. `skill/references/structure.md`
-3. access to `skill/assets/vault-template/`
+3. access to `skill/assets/vault-template-zh/` or `skill/assets/vault-template-en/`
 
 If an agent has no skill mechanism, run `scripts/init-vault.*` and then ask the agent to follow the generated `AGENTS.md`, `ops/workflows.md`, and `ops/prompts/`.
 

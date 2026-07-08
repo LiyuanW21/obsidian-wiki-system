@@ -23,7 +23,7 @@ fi
 
 case "$language" in
   zh)
-    template_root="$repo_root/skill/assets/vault-template"
+    template_root="$repo_root/skill/assets/vault-template-zh"
     entry_page="首页.md"
     ;;
   en)

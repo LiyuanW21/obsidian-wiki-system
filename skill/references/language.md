@@ -18,7 +18,7 @@ If the user does not specify a language:
 
 ## Template Choice
 
-- Chinese: copy `assets/vault-template/`.
+- Chinese: copy `assets/vault-template-zh/`.
 - English: copy `assets/vault-template-en/`.
 - Other languages: copy the closest template, then translate user-facing prose while preserving directory names, YAML field names, enum values, prompt filenames, and internal links.
 
@@ -38,4 +38,3 @@ Do not translate these structural values:
 - directory names: `raw`, `wiki`, `templates`, `ops`, `daily`
 - YAML field names: `type`, `title`, `status`, `created`, `updated`, `tags`, `source`
 - schema enums: `source`, `concept`, `domain`, `project`, `question`, `synthesis`, `daily`, `index`, `log`, `seed`, `growing`, `stable`, `archive`
-

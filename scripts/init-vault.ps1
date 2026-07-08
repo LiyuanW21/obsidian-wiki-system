@@ -26,7 +26,7 @@ if ($Language -eq 'auto') {
 }
 
 if ($Language -eq 'zh') {
-    $templateRoot = Join-Path $repoRoot 'skill\assets\vault-template'
+    $templateRoot = Join-Path $repoRoot 'skill\assets\vault-template-zh'
     $entryPage = '首页.md'
 }
 else {

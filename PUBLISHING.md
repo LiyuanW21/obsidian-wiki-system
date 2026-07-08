@@ -38,6 +38,5 @@ gh repo create <owner>/obsidian-wiki-system --public --source=. --remote=origin 
 ## Before Publishing Publicly
 
 - Choose a license if you want others to reuse the package formally.
-- Review `skill/assets/vault-template/` for personal information.
+- Review `skill/assets/vault-template-zh/` and `skill/assets/vault-template-en/` for personal information.
 - Keep `README.md` as the public entry point.
-
