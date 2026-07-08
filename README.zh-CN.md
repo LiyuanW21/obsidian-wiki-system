@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-一个可移植的 agent skill 和 Obsidian vault 模板，用来搭建可迭代的个人 wiki 知识库。
+一个可移植的 Obsidian wiki 系统，适用于 Codex、OpenCode，以及任何能读取“skill-like 文件夹”（instructions、references、assets）的 agent。
 
 ## 用自然语言安装
 
@@ -40,7 +40,7 @@
 
 ## 项目描述
 
-Obsidian Wiki System 帮助 AI agent 搭建并维护个人知识库：从原始资料开始，逐步整理为链接化的 wiki 笔记、可复用概念、开放问题、项目笔记和阶段性综合。它包含中英文 Obsidian vault 模板、agent skill 指令，以及适用于 Codex、OpenCode 和其它支持 skill 的 agent 的安装/初始化脚本。
+Obsidian Wiki System 帮助 AI agent 搭建并维护个人知识库：从原始资料开始，逐步整理为链接化的 wiki 笔记、可复用概念、开放问题、项目笔记和阶段性综合。它包含中英文 Obsidian vault 模板、agent skill 指令，以及适用于 Codex、OpenCode 和任何能读取 skill-style instructions、references、assets 的 agent 的安装/初始化脚本。
 
 ## 思想来源
 
@@ -54,7 +54,7 @@ raw/inbox -> wiki/sources -> wiki/concepts/questions/projects/syntheses -> wiki/
 
 ## 包含内容
 
-- `skill/`：可被 Codex、OpenCode 和其它 agent 使用的 skill 文件夹。
+- `skill/`：可被 Codex、OpenCode，以及任何能读取 skill-like instructions、references、assets 的 agent 使用的 skill 文件夹。
 - `skill/assets/vault-template/`：中文 Obsidian vault 模板。
 - `skill/assets/vault-template-en/`：英文 Obsidian vault 模板。
 - `skill/references/structure.md`：目录结构和复刻清单。
@@ -87,4 +87,3 @@ Bash：
 ## 发布说明
 
 如果你 fork 或改造这个项目，请保留对 Karpathy `llm-wiki` gist 的思想来源说明。
-

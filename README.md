@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-A portable agent skill and vault template for building an iterative Obsidian knowledge wiki.
+A portable Obsidian wiki system for Codex, OpenCode, and broadly any agent that can consume a skill-like folder containing instructions, references, and reusable assets.
 
 ## Install In Plain English
 
@@ -30,7 +30,7 @@ See [`AGENT_INSTALL.md`](AGENT_INSTALL.md) for beginner-friendly English copy-pa
 
 ## Description
 
-Obsidian Wiki System helps AI agents scaffold and maintain a personal knowledge base that evolves from raw captures into linked wiki notes, reusable concepts, open questions, project notes, and periodic syntheses. It includes bilingual Obsidian vault templates, agent skill instructions, and install/init scripts for Codex, OpenCode, and other skill-aware agents.
+Obsidian Wiki System helps AI agents scaffold and maintain a personal knowledge base that evolves from raw captures into linked wiki notes, reusable concepts, open questions, project notes, and periodic syntheses. It includes bilingual Obsidian vault templates, agent skill instructions, and install/init scripts for Codex, OpenCode, and any agent that can read skill-style instructions, references, and assets.
 
 ## Acknowledgements / Inspiration
 
@@ -44,7 +44,7 @@ raw/inbox -> wiki/sources -> wiki/concepts/questions/projects/syntheses -> wiki/
 
 ## What It Includes
 
-- `skill/`: portable skill folder for Codex, OpenCode, and other skill-aware agents.
+- `skill/`: portable skill folder for Codex, OpenCode, and broadly any agent that can consume skill-like instructions, references, and assets.
 - `skill/assets/vault-template/`: Chinese starter Obsidian vault structure.
 - `skill/assets/vault-template-en/`: English starter Obsidian vault structure.
 - `skill/references/structure.md`: directory model and replication checklist.
