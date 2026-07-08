@@ -1,5 +1,7 @@
 # Obsidian Wiki System
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 A portable agent skill and vault template for building an iterative Obsidian knowledge wiki.
 
 ## Install In Plain English
@@ -24,7 +26,7 @@ Then initialize a vault by asking:
 Use $obsidian-wiki-system to initialize a new Obsidian knowledge wiki vault at <target folder>, using <vault name> as the vault name. Match my preferred language automatically.
 ```
 
-See [`AGENT_INSTALL.md`](AGENT_INSTALL.md) for beginner-friendly copy-paste prompts in English and Chinese.
+See [`AGENT_INSTALL.md`](AGENT_INSTALL.md) for beginner-friendly English copy-paste prompts, or [`AGENT_INSTALL.zh-CN.md`](AGENT_INSTALL.zh-CN.md) for Chinese prompts.
 
 ## Description
 
