@@ -1,0 +1,5 @@
+interface:
+  display_name: "Obsidian Wiki System"
+  short_description: "Scaffold repeatable Obsidian wiki vaults"
+  default_prompt: "Use $obsidian-wiki-system to initialize a new Obsidian knowledge wiki vault."
+
